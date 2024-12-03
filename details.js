@@ -2,7 +2,6 @@ const API_URL = 'https://www.haloapi.com/metadata/h5/metadata/enemies';
 const SUBSCRIPTION_KEY = '8d903eb0ea2445e5beb0ede1d5c552f2';
 const enemyDetailsDiv = document.getElementById('enemy-details');
 
-// Get enemy ID from URL parameters
 const urlParams = new URLSearchParams(window.location.search);
 const enemyId = urlParams.get('id');
 
