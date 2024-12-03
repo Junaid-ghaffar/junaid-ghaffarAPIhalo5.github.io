@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  background-color: #1d1d1d;
+  padding: 20px;
+}
+
+#enemies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.enemy-card {
+  background-color: #444;
+  border: 1px solid #888;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: #1d1d1d;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
